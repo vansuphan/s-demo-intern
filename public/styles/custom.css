@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: #dcf9ff;
+    padding: 20px 65px;
+    border-radius: 5px;
+}
+h1{
+    padding-bottom: 10px;
+}
+.content-item.d-flex {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0;
+}
+.h3.title {
+    margin: 0px 10px;
+    color: black;
+    width: 25%;
+}
+.h3.value {
+    width: 75%;
+}

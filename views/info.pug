@@ -1,0 +1,17 @@
+.wrapper 
+	link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+	link(rel="stylesheet", href="/styles/custom.css")
+	div.form-info
+		h1 INFORMATION USER
+		.content-item.d-flex 
+			.h3.title ID
+			.h3.value= user.id
+		.content-item.d-flex 
+			.h3.title Name
+			.h3.value= user.name
+		.content-item.d-flex 
+			.h3.title Phone
+			.h3.value=user.phone
+		.content-item.d-flex 
+			.h3.title Mail
+			.h3.value=user.email
